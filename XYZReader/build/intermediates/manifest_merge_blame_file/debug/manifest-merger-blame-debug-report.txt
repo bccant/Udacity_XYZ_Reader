@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:app="http://schemas.android.com/apk/res-auto"
+4    package="com.example.xyzreader"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="26" />
+10-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:8:5-67
+12-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:9:5-81
+13-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+14-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:10:5-75
+14-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:10:22-72
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:11:5-79
+15-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:11:22-76
+16
+17    <application
+17-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:13:5-50:19
+18        android:allowBackup="true"
+18-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:14:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.0] /Users/cbalabhadrapat/.gradle/caches/transforms-2/files-2.1/5bc56ab2baa488d953f3821180fe22af/core-1.0.0/AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:15:9-43
+22        android:label="@string/app_name"
+22-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:16:9-41
+23        android:theme="@style/AppTheme" >
+23-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:17:9-40
+24        <activity
+24-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:19:9-26:20
+25            android:name="com.example.xyzreader.ui.ArticleListActivity"
+25-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:20:13-51
+26            android:label="@string/app_name" >
+26-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:21:13-45
+27            <intent-filter>
+27-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:22:13-25:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:23:17-69
+28-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:23:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:24:17-77
+30-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:24:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:28:9-41:20
+34            android:name="com.example.xyzreader.ui.ArticleDetailActivity"
+34-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:29:13-53
+35            android:parentActivityName="com.example.xyzreader.ui.ArticleListActivity"
+35-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:30:13-65
+36            android:theme="@style/AppTheme.NoActionBar" >
+36-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:31:13-56
+37            <intent-filter android:scheme="http" >
+37-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:32:13-37:29
+37-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:32:28-49
+38                <action android:name="android.intent.action.VIEW" />
+38-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:34:17-69
+38-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:34:25-66
+39
+40                <category android:name="android.intent.category.DEFAULT" />
+40-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:35:17-76
+40-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:35:27-73
+41
+42                <data android:mimeType="vnd.android.cursor.item/vnd.com.example.xyzreader.items" />
+42-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:36:17-100
+42-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:36:23-97
+43            </intent-filter>
+44
+45            <meta-data
+45-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:38:13-40:59
+46                android:name="android.support.PARENT_ACTIVITY"
+46-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:39:17-63
+47                android:value=".ui.ArticleListActivity" />
+47-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:40:17-56
+48        </activity>
+49
+50        <service
+50-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:43:9-44:40
+51            android:name="com.example.xyzreader.data.UpdaterService"
+51-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:43:18-53
+52            android:exported="false" />
+52-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:44:13-37
+53
+54        <provider
+54-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:46:9-48:40
+55            android:name="com.example.xyzreader.data.ItemsProvider"
+55-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:46:19-53
+56            android:authorities="com.example.xyzreader"
+56-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:47:13-56
+57            android:exported="false" />
+57-->/Users/cbalabhadrapat/Desktop/UdacityGitHub/xyz-reader-starter-code-master new/XYZReader/src/main/AndroidManifest.xml:48:13-37
+58    </application>
+59
+60</manifest>
